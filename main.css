@@ -1,8 +1,76 @@
-/* Variables */
-/* SCSS*/
-nav {
-  background-color: burlywood;
-  display: flex;
+
+
+   /* Color of the links BEFORE scroll */
+.navbar-scroll .nav-link,
+.navbar-scroll .fa-bars,
+.navbar-scroll .navar-brand {
+  color: #4f4f4f;
+}
+
+.navbar-scroll .nav-link:hover {
+  color: #1266f1;
+}
+
+/* Color of the links AFTER scroll */
+.navbar-scrolled .nav-link,
+.navbar-scrolled .fa-bars,
+.navbar-scrolled .navar-brand {
+  color: #4f4f4f;
+}
+
+/* Color of the navbar AFTER scroll */
+.navbar-scroll,
+.navbar-scrolled {
+  background-color: #fff;
+}
+
+/* An optional height of the navbar AFTER scroll */
+.navbar.navbar-scroll.navbar-scrolled {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+body {
+  background-color: #eee;
+}
+   
+  .carousel-inner{
+    
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 500px;}
+   
+    div.gallery {
+      margin: 5px;
+      float: left;
+      width: 415px;
+    }
+    
+    
+    
+    div.gallery img {
+      margin: 5px;
+      border: 1px solid #ccc;
+      
+    margin-left: 10%;
+    margin-right: auto;
+      width: 100%;
+      height: auto;
+    }
+    
+    
+    .contenedor{background-color: rgb(207, 195, 195);
+    display: flex;
   flex-direction: row;
-  justify-content: space-between; }
+  justify-content: space-around;
+  align-items: center;
+  padding: 8vh;
+}
+  
+  p{font-family: 'Jomhuria', cursive;
+  color: black;}
+  
+  .contenedor-footer{background-color: black;}
+
 

@@ -1,9 +1,13 @@
-body{background-color:gray ;}
+body{background-color: burlywood ;}
 img{
     height: 260px;
   transform: translate(550px,-80px) rotateX(10deg)
 
 }
-.form-group{
- 
+li{display: inline;
+  text-align: center;
+  
+}
+a{padding: 20px;
+background-color: cornflowerblue;
 }
